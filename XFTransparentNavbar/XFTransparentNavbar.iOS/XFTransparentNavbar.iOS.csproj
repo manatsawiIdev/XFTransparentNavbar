@@ -92,6 +92,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="RenderersIOS\CustomNavigationRenderer.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -156,5 +157,11 @@
       <Project>{196DE84B-A4AE-4E1E-B888-8AE0F70A70DD}</Project>
       <Name>XFTransparentNavbar</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\unplash.jpg" />
   </ItemGroup>
 </Project>

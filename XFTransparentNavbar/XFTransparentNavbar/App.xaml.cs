@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XFTransparentNavbar.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace XFTransparentNavbar
@@ -11,7 +12,7 @@ namespace XFTransparentNavbar
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new CustomNavigation(new TransparentNavbarView());
         }
 
         protected override void OnStart()
